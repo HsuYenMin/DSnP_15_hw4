@@ -1,0 +1,4 @@
+mtn -a 2 1
+mtp
+mtd -i 0 -a
+mtp

@@ -1,0 +1,7 @@
+src/mem/memMgr.h
+size_t getArraySize 廣霖的code寫成無條件捨去 為何
+
+void* operator new(size_t t) { return (void*)(_memMgr->alloc(t)); } 
+void* operator new[](size_t t) { return (void*)(_memMgr->allocArr(t)); }
+
+input 的 t 是系統會幫忙算好嗎?
